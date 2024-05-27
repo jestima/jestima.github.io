@@ -11,31 +11,42 @@
 	<link rel="icon" href="https://www.uc.pt/static/images/favicon.ico?v=20210525" />
 	
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
 	<!-- jQuery library -->
+	<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script-->
+	<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	
 	<style>		
 		body {
-			font-size: 2em;
+			padding-top: 100px;
+			color:grey;
+			font-family: Roboto;
 		}
 		p {
-      		margin-bottom: 4rem;
+      		margin-bottom: 1.5rem;
     	}
 		li{
 		    margin: 10px 0;
 		}
-		
+		h1{
+			color:black;
+		}
 		h3 {
-		   color:sandybrown;
+		   color:black;
 		}
 		
 		h4 {
 		   color:grey;
+		}
+		a {
+			color:#337ab7;
+			text-decoration: none;
 		}
 		
 	</style>
@@ -43,25 +54,44 @@
 </head>
 <body>
 <div>
-<nav class="navbar navbar-default">
-	<div class="container-fluid">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="#">Home</a></li>
-			<li><a href="#teaching">Teaching</a></li>
-			<li><a href="#publications">Publications</a></li>
-			<li><a href="#research_projects">Research</a></li>
-			<li><a href="#students">Students</a></li>
-			<li><a href="#activities">Activities</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li><img src="dei-uc.png" alt="Department of Informatics Engineering - University of Coimbra" height="42"></li>
-		</ul>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+	<div class="container container-fluid">
+		<div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+			<div class="navbar-nav justify-content-between">
+				<li class="nav-item">
+					<a class="nav-link active" aria-current="page" href="#">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#teaching">Teaching</a>
+				  </li>
+				<li>
+					<a class="nav-link" href="#publications">Publications</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#research_projects">Research</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#students">Students</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#activities">Activities</a>
+				</li>
+			</div>
+			<div class="nav navbar-nav justify-content-end">
+				<li><img src="dei-uc.png" alt="Department of Informatics Engineering - University of Coimbra" height="42"></li>
+			</div>
+		</div>
 	</div>
 </nav>
 </div>
+<div>
+</div>
 <div class="container">
 	<div class="page-header">
-		<h1 class="display-1">Jacinto Estima</h1>
+		<img src="jestima.jpg" class="rounded">
+		<br><br>
+		<h1 class="display-6">Jacinto Estima</h1>
+		<hr class="hr" />
 	</div>
   	<p>
 		Assistant Professor at the <a href="https://www.dei.uc.pt/">Department of Informatics Engineering - University of Coimbra</a>, Coimbra, Portugal.<br/>
@@ -70,7 +100,7 @@
 	
 	<p class="lead"><b>I'm looking for highly motivated students to work on a range of projects.<br/>Drop me an email if you are interested.</b></p>
 
-	<h3 class="display-1">Contacts</h3>
+	<h3 class="display-8">Contacts</h3>
 	<p>
 	<strong>Address:</strong><br/>						
 		Jacinto Estima<br/>
@@ -101,84 +131,88 @@
 		<strong>GitHub: </strong><a href="https://github.com/jestima">https://github.com/jestima</a><br/>
 		<strong>Twitter: </strong><a href="https://twitter.com/jacintoestima">https://twitter.com/jacintoestima</a>
 	</p>
-	<h3 class="display-1" id="teaching">Teaching</h3>
+	<h3 class="display-8" id="teaching">Teaching</h3>
 	<p>
-	2024-2025 &#8226; Information Systems Management (MEI, MES, MEIG, MFM)<br/>
-	2024-2025 &#8226; Service Engineering (MEI, MES, MECD)<br/>
-	2024-2025 &#8226; Information Systems (LEI)<br/>
-	2023-2024 &#8226; Information Systems Management (MEI, MES, MEIG, MFM)<br/>
-	2023-2024 &#8226; Service Engineering (MEI, MES, MECD)<br/>
-	2023-2024 &#8226; Information Systems (LEI)<br/>
-	2022-2023 &#8226; Business Process Management (MEI)<br/>
-	2022-2023 &#8226; Service Engineering (MEI, MES, MECD)<br/>
-	2022-2023 &#8226; Information Systems (LEI)<br/>
-	2021-2022 &#8226; Applied Machine Learning (IADE-UE, MCCAI)<br/>
-	2021-2022 &#8226; Project Factory (IADE-UE, LEI, LIG)<br/>
-	2021-2022 &#8226; Creative Programming (IADE-UE, MCCAI)<br/>
-	2021-2022 &#8226; Creative Programming (IADE-UE, LCT)<br/>
-	2021-2022 &#8226; Databases (IADE-UE, LCT)<br/>
-	2021-2022 &#8226; Databases (ESTS-IPS, CTeSP-DVAM)<br/>
-	2021-2022 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
-	2021-2022 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
-	2021-2022 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
-	2021-2022 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
-	2020-2021 &#8226; Programming in Design (IADE-UE, LD)<br/>
-	2020-2021 &#8226; Databases (IADE-UE, LEI, LIG)<br/>
-	2020-2021 &#8226; Project Factory (IADE-UE, LEI, LIG)<br/>
-	2020-2021 &#8226; Structuring of Logical Thinking (IADE-UE, LEI, LIG)<br/>
-	2020-2021 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
-	2020-2021 &#8226; Databases (ESTS-IPS, LEI)<br/>
-	2020-2021 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
-	2020-2021 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
-	2020-2021 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
-	2019-2020 &#8226; Databases (IADE-UE, LEI, LGAD)<br/>
-	2019-2020 &#8226; Project Factory (IADE-UE, LEI)<br/>
-	2019-2020 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
-	2019-2020 &#8226; Information Technologies I (IADE-UE, LCC)<br/>
-	2019-2020 &#8226; Digital Studio III - Programming (IADE-UE, LDG)<br/>
-	2019-2020 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
-	2019-2020 &#8226; Information Systems Modelling (ESTS-IPS, LEI)<br/>
-	2019-2020 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
-	2019-2020 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
-	2018-2019 &#8226; Information Systems for Decision Support (IADE-UE, MSIG)<br/>
-	2018-2019 &#8226; Databases (IADE-UE, LEI, LGAD)<br/>
-	2018-2019 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
-	2018-2019 &#8226; Information Technologies II (IADE-UE, LIG)<br/>
-	2018-2019 &#8226; Knowledge Integration (IADE-UE, LIG)<br/>
-	2018-2019 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
-	2018-2019 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
-	2018-2019 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
-	2018-2019 &#8226; Object Oriented Programming (ESTS-IPS, CTeSP-SEC)<br/>
-	2017-2018 &#8226; Information Systems for Decision Support (IADE-UE, MSIG)<br/>
-	2017-2018 &#8226; Distributed Systems (IADE-UE, MSIG)<br/>
-	2017-2018 &#8226; Data Analytics (ESTS-IPS, MEI)<br/>
-	2017-2018 &#8226; Databases (IADE-UE, LIG, LGAD)<br/>
-	2017-2018 &#8226; Business Intelligence (IADE-UE, LIG)<br/>
-	2017-2018 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
-	2017-2018 &#8226; Information Systems Modelling (ESTS-IPS, LEI)<br/>
-	2017-2018 &#8226; Internet Programming Technologies (ESTS-IPS, CTeSP-RSI, CTeSP-PWDAM)<br/>
-	2010-2011 &#8226; Geographic Information Sistems I (ESTGA-UA, CET-SIG)<br/>
-	2010-2011 &#8226; Geographic Information Sistems II (ESTGA-UA, CET-SIG)<br/>
-	2010-2011 &#8226; GIS Programming (ESTGA-UA, CET-SIG)<br/>
-	2010-2011 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
-	2010-2011 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
-	2009-2010 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
-	2009-2010 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
-	2008-2009 &#8226; GIS Programming (ESTGA-UA, CET-SIG)<br/>
-	2008-2009 &#8226; Databases (ESTGA-UA, CET-SIG)<br/>
-	2008-2009 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
-	2008-2009 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
-	2007-2008 &#8226; Cartographic Representation (ESTGA-UA, CET-TDAC)<br/>
-	2007-2008 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
-	2007-2008 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
-	2006-2007 &#8226; Cartographic Representation (ESTGA-UA, CET-TDAC)<br/>
-	2006-2007 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
-	2006-2007 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)
+		2024-2025 &#8226; Information Systems Management (MEI, MES, MEIG, MFM)<br/>
+		2024-2025 &#8226; Service Engineering (MEI, MES, MECD)<br/>
+		2024-2025 &#8226; Information Systems (LEI)<br/>
+		2023-2024 &#8226; Information Systems Management (MEI, MES, MEIG, MFM)<br/>
+		2023-2024 &#8226; Service Engineering (MEI, MES, MECD)<br/>
+		2023-2024 &#8226; Information Systems (LEI)<br/>
+		2022-2023 &#8226; Business Process Management (MEI)<br/>
+		2022-2023 &#8226; Service Engineering (MEI, MES, MECD)<br/>
+		2022-2023 &#8226; Information Systems (LEI)
 	</p>
-	<h3>Research Areas</h3>
+	<p>
+		2021-2022 &#8226; Applied Machine Learning (IADE-UE, MCCAI)<br/>
+		2021-2022 &#8226; Project Factory (IADE-UE, LEI, LIG)<br/>
+		2021-2022 &#8226; Creative Programming (IADE-UE, MCCAI)<br/>
+		2021-2022 &#8226; Creative Programming (IADE-UE, LCT)<br/>
+		2021-2022 &#8226; Databases (IADE-UE, LCT)<br/>
+		2021-2022 &#8226; Databases (ESTS-IPS, CTeSP-DVAM)<br/>
+		2021-2022 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
+		2021-2022 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
+		2021-2022 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
+		2021-2022 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
+		2020-2021 &#8226; Programming in Design (IADE-UE, LD)<br/>
+		2020-2021 &#8226; Databases (IADE-UE, LEI, LIG)<br/>
+		2020-2021 &#8226; Project Factory (IADE-UE, LEI, LIG)<br/>
+		2020-2021 &#8226; Structuring of Logical Thinking (IADE-UE, LEI, LIG)<br/>
+		2020-2021 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
+		2020-2021 &#8226; Databases (ESTS-IPS, LEI)<br/>
+		2020-2021 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
+		2020-2021 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
+		2020-2021 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
+		2019-2020 &#8226; Databases (IADE-UE, LEI, LGAD)<br/>
+		2019-2020 &#8226; Project Factory (IADE-UE, LEI)<br/>
+		2019-2020 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
+		2019-2020 &#8226; Information Technologies I (IADE-UE, LCC)<br/>
+		2019-2020 &#8226; Digital Studio III - Programming (IADE-UE, LDG)<br/>
+		2019-2020 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
+		2019-2020 &#8226; Information Systems Modelling (ESTS-IPS, LEI)<br/>
+		2019-2020 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
+		2019-2020 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
+		2018-2019 &#8226; Information Systems for Decision Support (IADE-UE, MSIG)<br/>
+		2018-2019 &#8226; Databases (IADE-UE, LEI, LGAD)<br/>
+		2018-2019 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
+		2018-2019 &#8226; Information Technologies II (IADE-UE, LIG)<br/>
+		2018-2019 &#8226; Knowledge Integration (IADE-UE, LIG)<br/>
+		2018-2019 &#8226; Digital Marketing (ESTS-IPS, MES)<br/>
+		2018-2019 &#8226; Machine Learning (ESTB-IPS, LBioinformatics)<br/>
+		2018-2019 &#8226; Spatial Planning and Geographic Information (ESTS-IPS, LTAM)<br/>
+		2018-2019 &#8226; Object Oriented Programming (ESTS-IPS, CTeSP-SEC)<br/>
+		2017-2018 &#8226; Information Systems for Decision Support (IADE-UE, MSIG)<br/>
+		2017-2018 &#8226; Distributed Systems (IADE-UE, MSIG)<br/>
+		2017-2018 &#8226; Data Analytics (ESTS-IPS, MEI)<br/>
+		2017-2018 &#8226; Databases (IADE-UE, LIG, LGAD)<br/>
+		2017-2018 &#8226; Business Intelligence (IADE-UE, LIG)<br/>
+		2017-2018 &#8226; Geographic Information Systems (IADE-UE, LEI, LIG)<br/>
+		2017-2018 &#8226; Information Systems Modelling (ESTS-IPS, LEI)<br/>
+		2017-2018 &#8226; Internet Programming Technologies (ESTS-IPS, CTeSP-RSI, CTeSP-PWDAM)
+	</p>
+	<p>
+		2010-2011 &#8226; Geographic Information Sistems I (ESTGA-UA, CET-SIG)<br/>
+		2010-2011 &#8226; Geographic Information Sistems II (ESTGA-UA, CET-SIG)<br/>
+		2010-2011 &#8226; GIS Programming (ESTGA-UA, CET-SIG)<br/>
+		2010-2011 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
+		2010-2011 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
+		2009-2010 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
+		2009-2010 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
+		2008-2009 &#8226; GIS Programming (ESTGA-UA, CET-SIG)<br/>
+		2008-2009 &#8226; Databases (ESTGA-UA, CET-SIG)<br/>
+		2008-2009 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
+		2008-2009 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
+		2007-2008 &#8226; Cartographic Representation (ESTGA-UA, CET-TDAC)<br/>
+		2007-2008 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
+		2007-2008 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)<br/>
+		2006-2007 &#8226; Cartographic Representation (ESTGA-UA, CET-TDAC)<br/>
+		2006-2007 &#8226; Geographic Information Technologies (ESTGA-UA, CET-TDAC)<br/>
+		2006-2007 &#8226; Global Positioning Systems (ESTGA-UA, CET-TDAC)
+	</p>
+	<h3 class="display-8">Research Areas</h3>
 		<p> Information Systems &#8226; Geographical Information Science (GIS) &#8226; Volunteered Geographic Information (VGI) &#8226; Information Management &#8226; Machine Learning</p>
-	<h3 class="display-1" id="publications">Publications</h3>
-	<h4 class="display-2">International Journal Papers</h4>
+	<h3 class="display-8" id="publications">Publications</h3>
+	<h4 class="display-8">International Journal Papers</h4>
 		<ol reversed>
 			<li>Ricardo, A. M., Ferreira, R. M. L., Rodrigues da Silva, A., Estima, J., Marques, J., Gamito, I., & Serra, A. (2024). Flood simulation with the RiverCure approach: the open dataset of the 2016 Águeda flood event. Earth Syst. Sci. Data, 16, 375–385, DOI: https://doi.org/10.5194/essd-16-375-2024 <!-- [Scimago Q1] [indexed by ISI and Scopus] --></li>
 			<li>Magalhães Serra, A., Estima, J., & Rodrigues da Silva, A. (2023). Evaluation of Maestro, an extensible general-purpose data gathering and data classification platform. Information Processing & Management, 60(5), 103458. DOI: https://doi.org/10.1016/j.ipm.2023.103458 <!-- [Scimago Q1] [indexed by ISI and Scopus] --></li>
@@ -193,7 +227,7 @@
 			<li>See, L., Mooney, P., Foody, G., Bastin, L., Comber, A., Estima, J., Fritz, S., Kerle, N., Jiang, B., Laakso, M., Liu, H., Milčinski, G., Nikšič, M., Painho, M., Pődör, A., Olteanu-Raimond, A., & Rutzinger, M. (2016). Crowdsourcing, Citizen Science or Volunteered Geographic Information? The Current State of Crowdsourced Geographic Information. ISPRS International Journal of Geo-Information, 5(5), 55. DOI: https://doi.org/10.3390/ijgi5050055 [Scimago Q1] [indexed by ISI and Scopus]</li>
 			<li>Estima, J., & Painho, M. (2014). Photo based Volunteered Geographic Information initiatives: a comparative study of their suitability for helping quality control of Corine Land Cover. International Journal of Agricultural and Environmental Information Systems (IJAEIS) 5.3 (2014): 73-89. DOI: https://doi.org/10.4018/ijaeis.2014070105 [Scimago Q4] [indexed by Scopus]</li>
 		</ol>
-	<h4 class="display-2">Conference and Workshop Papers</h4>
+	<h4 class="display-8">Conference and Workshop Papers</h4>
 		<ol reversed>
 			<li>Antunes, J., Barata, J., da Cunha, P.R., Estima, J., Tavares, J. (2024). A Reference Architecture for Dry Port Digital Twins: Preliminary Assessment Using ArchiMate. In: Araújo, J., de la Vara, J.L., Santos, M.Y., Assar, S. (eds) Research Challenges in Information Science. RCIS 2024. Lecture Notes in Business Information Processing, vol 513. Springer, Cham. [<a href="https://doi.org/10.1007/978-3-031-59465-6_9">PDF</a>]</li>
 			<li>Júnior, D.G.S., Hernández-Ramírez, R., Estima, J. (2024). Investigating Usability Indicators for the Adoption of AI Models in Heuristic Evaluation. In: Martins, N., Brandão, D. (eds) Advances in Design and Digital Communication IV. DIGICOM 2023. Springer Series in Design and Innovation , vol 35. Springer, Cham. [<a href="https://doi.org/10.1007/978-3-031-47281-7_11">PDF</a>]</li>
@@ -234,7 +268,7 @@
 			<li>Estima, J. (2012). Land Cover assessment using VGI. Doctoral Symposium of the 7th Iberian Conference on Information Systems and Technologies (CISTI'2012). Madrid, Spain. 20-23 June [comprovável através de http://www.aistic.org/cisti2012/oc12/modules/request.php?module=oc_program&action=summary.php&id=138]</li>
 			<li>Silva, A., Ramos, A., Estima, J., Tavares, M., & Calvão, C. (2007). Registering Point Geographic Features via PDA. Proceedings of the Joint International Symposium & Exhibition on Geoinformation and GPS/GNSS 2007. Johor Bahru, Johor, Malaysia. 5-7 November</li>
 		</ol>
-	<h4 class="display-2">Books and Book Chapters</h4>
+	<h4 class="display-8">Books and Book Chapters</h4>
 		<ol reversed>
 			<li>Rodrigues da Silva, A., Mira da Silva, M., Estima, J., Barry, C., Lang, M., Linger, H., & Schneider, C. (2023) Information Systems Development, Organizational Aspects and Societal Trends (ISD2023 Proceedings). Lisbon, Portugal: Instituto Superior Técnico. ISBN: 978-989-33-5509-1</li>
 			<li>Jiménez-Badillo, D., Murrieta -Flores, P., Martins, B., Gregory, I., Favila-Vázquez, M., Liceras-Garrido, R., Bellamy, K., Won, M., & Estima, J. (2021). Análisis histórico-geográ!co de documentos novohispanos del siglo XVI mediante técnicas de lingüística computacional y análisis espacial. In: D. Jiménez-Badillo (Eds.). <i>Patrimonio Digital: Métodos computacionales y medios interactivos paraestudiar y divulgar el patrimonio cultural</i> (pp. 35-64). Ciudad de México, México: Instituto Nacional de Antropología e Historia, Secretaría de Cultura.</li>
@@ -244,7 +278,7 @@
 			<li>Lupia, F., & Estima, J. (2016). Discussing the Potential of Crowdsourced Geographic Information for Urban Areas Monitoring Using the Panoramio Initiative: A Case Study in Rome, Italy. In Capineri, C et al. 2016. European Handbook of Crowdsourced Geographic Information. Ubiquity Press. DOI: http://dx.doi.org/10.5334/bax</li>
 			<li>Estima, J., & Painho, M. (2015). Investigating the Potential of OpenStreetMap for Land Use/Land Cover Production: A Case Study for Continental Portugal. In: Jokar Arsanjani, J., Zipf, A., Mooney, P., Helbich, M., OpenStreetMap in GIScience: experiences, research, applications. ISBN:978-3-319-14279-1, PP. 273-293, Springer Press. DOI: https://doi.org/10.1007/978-3-319-14280-7_14 [indexed by Scopus]</li>
 		</ol>
-	<h4 class="display-2">Technical reports and other publications</h4>
+	<h4 class="display-8">Technical reports and other publications</h4>
 		<ol reversed>
 			<li>Fonte, C.C., Patriarca, J., Almeida, J.P., Cardoso, A., Estima, J., Silvestre, D. (2022) Quality assessment of positioning and orientation data collected by mobile devices. Technical Report. INESC - Coimbra. ISSN 1645-2631 [<a href="https://www.uc.pt/en/org/inescc/res_reports_docs/RR_01_2022">PDF</a>]</li>
 			<li>Calisto, L., Estima, J., & Ghedira, H. (2016) DubaiSat Vegetation Monitoring Tool for Mobile Devices. FOSS4G 2016, 16(1), 119.</li>
@@ -252,12 +286,12 @@
 			<li>Estima, J., Rocha, J., & Cabral, P. (2010). Porque é que a componente transacional da norma WFS não é muito usada?. Short paper presented at III Journeys of Open Source Software for Geographic Information Systems. Lisboa, Portugal. 3-5 November</li>
 			<li>Estima, J., & Cabral, P. (2009). O Web Feature Service – Transaction Standard – Exemplo de um protótipo de implementação. II Journeys of Open Source Software for Geographic Information Systems. Évora, Portugal. 2-4 November</li>
 		</ol>
-	<h4 class="display-2">PhD Thesis</h4>
+	<h4 class="display-8">PhD Thesis</h4>
 		<ol>
 			<li>Estima, J. (2015). User Generated spatial Content sources for Land Use/Land Cover validation purposes: suitability analysis and integration model. Tese de Doutoramento. Universidade Nova de Lisboa, Portugal [disponível através de https://run.unl.pt/handle/10362/17881]</li>
 		</ol>
-	<h3 class="display-1" id="research_projects">Research Projects</h3>
-	<h4 class="display-2">Ongoing projects</h4>
+	<h3 class="display-8" id="research_projects">Research Projects</h3>
+	<h4 class="display-8">Ongoing projects</h4>
 		<ul>
 			<li><a href="https://www.cisuc.uc.pt/en/projects/wearsyslab-wearable-systems-lab" target=”_blank”>WearSysLab - Wearable Systems Lab [funding: € 8.000,00]</a></li>
 			<li><a href="https://www.cisuc.uc.pt/en/projects/nexus-innovation-pact-digital-and-green-transition-for-transports-logistics-and-mobility" target=”_blank”>NEXUS Innovation Pact – Digital and Green Transition for Transports, Logistics and Mobility [funding: € 6.219.926,00]</a></li>
@@ -265,7 +299,7 @@
 			<li><a href="https://www.inesc-id.pt/projects/PR09016/" target=”_blank”>Integrating data and models to understand Dikes Failure Prorocesses (DikesFPro - FCT PTDC/ECI-EGC/7739/2020) [funding: € 249.990,00]</a></li>
 			<li><a href="https://www.inesc-id.pt/projects/PR09014/" target=”_blank”>Automated and participated surveillance of wildfire fuel management zones (FlorestaLimpa - FCT PCIF/MOG/0161/2019) [funding: € 284.906,87]</a> - <b>Co-PI</b></li>
 		</ul>
-	<h4 class="display-2">Closed projects</h4>
+	<h4 class="display-8">Closed projects</h4>
 		<ul>
 			<li><a href="https://www.inesc-id.pt/projects/PR09002/" target=”_blank”>A Machine Learning-Based Forecasting System for Shellfish Safety (MATISSE - FCT DSAIPA/DS/0026/2019) [funding: € 220.093,90]</a></li>
 			<li><a href="https://www.cyted.org/es/ideais" target=”_blank”>Asistentes Inteligentes para las Infraestructuras de Datos Espaciales (IDEAIS - Red CYTED)</a></li>
@@ -278,8 +312,8 @@
 			<li><a href="https://www.uc.pt/en/org/inescc/Projects/projects/GeoTimeLine" target=”_blank”>GeoTimeLine: A system for multi-hazard event reconstruction in space and time (INESC-Coimbra) [funding: € 10.000,00]</a></li>
 			<li><a href="https://www.uc.pt/en/org/inescc/Projects/projects/ExtremeCGI" target=”_blank”>ExtremeCGI: Monitoring Extreme Events integrating Crowdsourced Geographic Information and Real-time Sensor Data (INESC-Coimbra) [funding: € 10.000,00]</a></li>
 		</ul>
-	<h3 class="display-1" id="students">Supervision of Students</h3>
-	<h4 class="display-2">Ph.D. Students</h4>
+	<h3 class="display-8" id="students">Supervision of Students</h3>
+	<h4 class="display-8">Ph.D. Students</h4>
 	<p>
 		<ul>
 			<li>Cinthya Bittencourt, <a href=""><i>Ethics in Artificial Intelligence: A Practical Approach</i></a>, Universidade de Coimbra (<i>ongoing - co-supervised with Prof.  Paulo Rupino da Cunha</i>)</li> <!-- ?? valores -->
@@ -287,7 +321,7 @@
 			<li>Demerval Gomes Junior, <a href=""><i>Análise e perspectivas sobre o uso de recursos de Inteligência Artificial para avaliação de interfaces web de Sistemas de Gestão de Aprendizagem (LMS)</i></a>, IADE - Universidade Europeia (<i>Finished &#8226; co-supervised with Prof. Rodrigo Hernandes Ramirez</i>)</li> <!-- Aprovado por unanimidade a 24.04.2024 -->
 		</ul>
 	</p>
-	<h4 class="display-2">M.Sc. Students</h4>
+	<h4 class="display-8">M.Sc. Students</h4>
 	<p>
 		<ul>
 			<li>2024 &#8226; André Graça, <a href=""><i>Blockchain-based Volunteered Geographic Information System</i></a>, DEI-UC (<i>co-supervised with Prof. Paulo Rupino da Cunha</i>)</li> <!-- Defendeu a x e teve x valores -->
@@ -335,7 +369,7 @@
 			<!--li>Mário Santos, <a href=""><i>Sistema de Suporte à Decisão para análise de risco de crédito</i></a>, Universidade Europeia, 2018</li> < ?? valores - ainda não terminou...deve ter desistido -->
 		</ul>
 	</p>
-	<h3 class="display-1" id="activities">Recent Professional Activities</h3>
+	<h3 class="display-8" id="activities">Recent Professional Activities</h3>
 	<p>
 		<ul>
 			<li><strong>Member of editorial committees/boards: </strong>
